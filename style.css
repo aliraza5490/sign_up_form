@@ -65,4 +65,45 @@ body form button[type="submit"] {
   background: white;
   margin: 1em auto 0 auto;
 }
+
+body #after-submit {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(88, 167, 235, 0.8);
+  display: none;
+  left: -1000%;
+}
+
+body #after-submit #message-container {
+  background: white;
+  padding: 2em 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3em;
+}
+
+body #after-submit #message-container #message-img {
+  width: 120px;
+  height: 120px;
+}
+
+body #after-submit #message-container p {
+  width: 60%;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0.8em 0;
+}
+
+body #after-submit #message-container button {
+  padding: 0.5em 2em;
+  font-size: 1.2em;
+  border: none;
+  background: rgba(88, 167, 235, 0.8);
+}
 /*# sourceMappingURL=style.css.map */
