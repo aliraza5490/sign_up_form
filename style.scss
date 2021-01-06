@@ -97,4 +97,29 @@ body {
 			}
 		}
 	}
+	@media screen and (max-width: 1024px) {
+		h1 {
+			padding: 0.3em;
+		}
+		form {
+			width: 60%;
+			padding: 1em 2em;
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		form {
+			width: 70%;
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		form {
+			width: 80%;
+			padding: 1em 1.2em;
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		form {
+			width: 90%;
+		}
+	}
 }
