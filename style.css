@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -64,6 +65,11 @@ body form button[type="submit"] {
   border: none;
   background: white;
   margin: 1em auto 0 auto;
+  transition: background 0.5s ease-in-out;
+}
+
+body form button[type="submit"]:focus {
+  background: rgba(88, 167, 235, 0.8);
 }
 
 body #after-submit {
@@ -105,6 +111,11 @@ body #after-submit #message-container button {
   font-size: 1.2em;
   border: none;
   background: rgba(88, 167, 235, 0.8);
+  transition: background 0.1s ease-in-out;
+}
+
+body #after-submit #message-container button:focus {
+  background: white;
 }
 
 @media screen and (max-width: 1024px) {
