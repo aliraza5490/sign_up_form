@@ -106,20 +106,27 @@ body {
 			padding: 1em 2em;
 		}
 	}
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 768px) {
 		form {
 			width: 70%;
 		}
 	}
-	@media screen and (max-width: 1024px) {
-		form {
-			width: 80%;
-			padding: 1em 1.2em;
-		}
-	}
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 425px) {
 		form {
 			width: 90%;
+			padding: 1em 1.2em;
+		}
+		#after-submit {
+			#message-container {
+				padding: 1em 2em;
+			}
+		}
+	}
+	@media screen and (max-width: 375px) {
+		#after-submit {
+			#message-container {
+				padding: 1em;
+			}
 		}
 	}
 }

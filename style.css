@@ -117,22 +117,25 @@ body #after-submit #message-container button {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   body form {
     width: 70%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
   body form {
-    width: 80%;
+    width: 90%;
     padding: 1em 1.2em;
+  }
+  body #after-submit #message-container {
+    padding: 1em 2em;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  body form {
-    width: 90%;
+@media screen and (max-width: 375px) {
+  body #after-submit #message-container {
+    padding: 1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
